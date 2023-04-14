@@ -7,4 +7,5 @@ int n; // Number of element in the array
 int i; // index of array element
 
 
-
+void input()
+{}
