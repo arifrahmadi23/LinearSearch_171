@@ -55,6 +55,11 @@ void LinearSearch()
 			}
 		}
 
+		if (i == n)										// Lankah 5 b not found
+			cout << "\n" << item << " not found in the array\n";
+		cout << "\nNumber of comparisons " comparison << endl;
 
-	}
+		cout << "\nContinue search (y/n): ";
+		cin >> ch;
+	} while ((ch == 'y') || (ch == 'Y'));
 }
